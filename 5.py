@@ -1,2 +1,9 @@
-lista = [1,2,3,4,5]
-variable = lista.copy()
+#Ejercicios
+
+# print("Escribe un programa que imprima tu nombre y tu ciudad en líneas separadas.")
+
+name = "Ricardo"
+city = "ciudad de mexico"
+
+print(name)
+print(city)
