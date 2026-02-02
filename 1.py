@@ -52,12 +52,6 @@
 
 #Listas
 
-marcas = ["mercedes", "nissan", "chevrolet", "ford"]
-print(marcas.count)
+# marcas = ["mercedes", "nissan", "chevrolet", "ford"]
+# print(marcas.count)
 
-while marcas > 0:
-    print("listo")
-    marcas += 1
-
-else:
-    print("fin")
