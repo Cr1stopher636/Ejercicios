@@ -60,8 +60,12 @@
 
 numeros = [10, 20, 30, 40, 50]
 
-nueva_lista = numeros[0]
-print(nueva_lista)
+numeros = numeros[0]
+print(numeros)
+
+
+
+
 
 
 

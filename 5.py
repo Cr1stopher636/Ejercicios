@@ -58,11 +58,12 @@
 # print("3. Haz la división entera entre el número que te salió y el número 2")
 # print("4. El resultado debería ser 1")
 
-numero_PI = 3.1416
-variable = round(numero_PI)
-print(variable)
+# numero_PI = 3.1416
+# variable = round(numero_PI)
+# print(variable)
 
-resultado = variable // 2
-print(resultado)
+# resultado = variable // 2
+# print(resultado)
+
 
 
