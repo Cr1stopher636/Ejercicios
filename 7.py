@@ -58,14 +58,14 @@
 # numeros = [10, 20, 30, 40, 50]
 # Intercambia la primera y la última posición utilizando solo asignación por índice.
 
-numeros = [10, 20, 30, 40, 50]
+# numeros = [10, 20, 30, 40, 50]
 
-numeros = numeros[0]
-print(numeros)
+# variable = numeros[0]
 
+# numeros[0] = numeros[-1]
+# numeros[-1] = variable
 
-
-
+# print(numeros)
 
 
 
@@ -77,16 +77,55 @@ print(numeros)
 # pan_abajo = ["pan abajo"]
 # Crea una lista llamada sandwich que contenga el pan de arriba, los ingredientes y el pan de abajo, en ese orden.
 
+# pan = ["pan arriba"]
+# ingredientes = ["jamón", "queso", "tomate"]
+# pan_abajo = ["pan abajo"]
+
+# sandwich = pan + ingredientes + pan_abajo
+# print(sandwich)
+
+
+
+
 # Ejercicio 4: Duplicando la lista
 # Dada una lista:
 # lista = [1, 2, 3]
 # Crea una nueva lista que contenga los elementos de la lista original duplicados.
 # Ejemplo: [1, 2, 3] -> [1, 2, 3, 1, 2, 3]
 
+# lista = [1, 2, 3]
+# nueva_lista = lista * 2
+# print(nueva_lista)
+
+
+
+
 # Ejercicio 5: Extrayendo el centro
 # Dada una lista con un número impar de elementos, extrae el elemento que se encuentra en el centro de la lista utilizando slicing.
 # Ejemplo: lista = [10, 20, 30, 40, 50] -> El centro es 30
 
+# lista = [10, 20, 30, 40, 50]
+# variable = lista[2]
+# print(variable)
+
+
+
+
+
 # Ejercicio 6: Reversa parcial
 # Dada una lista, invierte solo la primera mitad de la lista (utilizando slicing y concatenación).
 # Ejemplo: lista = [1, 2, 3, 4, 5, 6] -> Resultado: [3, 2, 1, 4, 5, 6]
+
+lista = [1, 2, 3, 4, 5, 6]
+mitad = len(lista) // 2
+
+lista = lista[:mitad][::-1] + lista[mitad:]
+
+
+print(lista)
+
+
+
+
+
+
