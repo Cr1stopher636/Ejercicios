@@ -116,13 +116,26 @@
 # Dada una lista, invierte solo la primera mitad de la lista (utilizando slicing y concatenación).
 # Ejemplo: lista = [1, 2, 3, 4, 5, 6] -> Resultado: [3, 2, 1, 4, 5, 6]
 
-lista = [1, 2, 3, 4, 5, 6]
-mitad = len(lista) // 2
+# lista = [1, 2, 3, 4, 5, 6]
 
-lista = lista[:mitad][::-1] + lista[mitad:]
+# mitad = len(lista) // 2
+# primera_mitad = lista[:mitad][::-1]
+# segunda_mitad = lista[mitad:]
+
+# variable = primera_mitad + segunda_mitad
+# print(variable)
 
 
-print(lista)
+#Imprime todos los números del 1 al 10 usando un for.
+
+numeros = 10
+
+for numero in range(1, numeros + 1): #Empieza en el 1 y termina en el 10 
+    print(numero)
+
+
+
+
 
 
 
