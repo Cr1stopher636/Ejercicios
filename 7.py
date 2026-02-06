@@ -128,17 +128,16 @@
 
 #Imprime todos los números del 1 al 10 usando un for.
 
-numeros = 10
+# numeros = 10
 
-for numero in range(1, numeros + 1): #Empieza en el 1 y termina en el 10 
-    print(numero)
-
-
+# for numero in range(1, numeros + 1): #Empieza en el 1 y termina en el 10 
+#     print(numero)
 
 
+# lista = [12,125,6,2,47,738,43]
 
-
-
-
+# lista_ordenada = sorted(lista)
+# print(lista)
+# print(lista_ordenada)
 
 
