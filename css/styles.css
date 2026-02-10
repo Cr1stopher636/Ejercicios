@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+    color: rgb(15, 150, 170);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+body {
+    background-image: url(../imgs/fondo.jpg);
+    margin: auto;
+
+}
+
+div {
+    font-family: arial;
+    font-size: 12;
+    color: white;
+    text-align: center;
+}
