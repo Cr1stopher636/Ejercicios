@@ -262,13 +262,21 @@
 
 
 #Bucle While
-edad = 0
+# edad = 0
 
-while edad <= 5:
-    print(edad)
-    edad += 1
-
-
+# while edad <= 5:
+#     print(edad)
+#     edad += 1
 
 
+# nombre = "ricardo"
+# edad = 22
 
+# print(f"hola {nombre} tienes {edad} años")
+# for letra in nombre:
+#     print(letra)
+
+
+lista = [1,2,3,4,5]
+for palabra in lista:
+    print(lista)
