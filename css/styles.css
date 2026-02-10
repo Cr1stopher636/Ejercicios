@@ -13,6 +13,7 @@ h1 {
 body {
     background-image: url(../imgs/fondo.jpg);
     margin: auto;
+    text-align: center;
 
 }
 
@@ -22,3 +23,12 @@ div {
     color: white;
     text-align: center;
 }
+
+img {
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);                                                            
+
+}
+
+
