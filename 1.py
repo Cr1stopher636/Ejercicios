@@ -277,6 +277,114 @@
 #     print(letra)
 
 
-lista = [1,2,3,4,5]
-for palabra in lista:
-    print(lista)
+# lista = [1,2,3,4,5]
+# for palabra in lista:
+#     print(lista)
+
+
+# def saludar(edad, edad_acompañante):
+#     if edad >= 18:
+#         print("Bienvenido")
+
+#     elif edad < 18 and edad_acompañante >= 18:
+#         print("Puedes ingresar con un adulto")
+
+#     else:
+#         print("no puede ingresar")
+
+# saludar(20, 0)
+# saludar(18, 14)
+# saludar(22, 54)
+# saludar(13, 3)
+
+
+# Crea una función llamada saludar que reciba un nombre y muestre:
+
+# def saludar(nombre):
+#     print(f"Hola {nombre}")
+
+# saludar("ricardo")
+
+
+# Crea una función sumar(a, b) que regrese la suma de dos números.
+
+# def sumar(a, b):
+#     return a + b
+
+# print(sumar(10, 20))
+
+
+# Crea una función es_par(numero) que regrese True si es par y False si es impar.
+
+# def es_par(numero):
+#     if numero % 2 == 0:
+#         return True
+#     else:
+#         return False
+
+# print(es_par(2)) 
+
+   
+#Crea una función area_rectangulo(base, altura) que regrese el área.
+
+# def area_rectangulo(base, altura):
+#     return base * altura
+
+
+# print(area_rectangulo(10, 5))
+
+
+# Crea una función mayor(a, b) que regrese el número mayor.
+# Si son iguales, que regrese "Son iguales".
+
+# def mayor(a, b):
+#     if a > b:
+#         print("A es mayor")
+
+#     elif b > a:
+#         print("B es mayor")
+
+#     else:
+#         print("Son iguales")
+
+# mayor(10, 10)
+
+
+# Crea una función contar_letras(palabra) que regrese cuántas letras tiene la palabra.
+
+# def contar_letras(palabra):
+#     return len(palabra)
+
+# print(contar_letras("hola"))
+
+
+# Crea una función tabla(numero) que imprima la tabla del 1 al 10 de ese número.
+
+# def tabla(numero):
+#     for i in range(1, 11):
+#         print(f"{numero} x {i} = {numero * i}")
+
+# tabla(2)
+
+# Crea una función promedio(lista) que reciba una lista de números y regrese el promedio.
+# def promedio(lista):
+#     return sum(lista) / len(lista)
+
+# # ejemplo
+# print(promedio([10, 8, 9, 7]))
+
+# Crea una función contar_vocales(texto) que regrese cuántas vocales hay en el texto.
+
+# def contar_vocales(texto):
+#     vocales = "aeiouAEIOU"
+#     contador = 0
+
+#     for letra in texto:
+#         if letra in vocales:
+#             contador += 1
+
+#     return contador
+
+# print(contar_vocales("Hola Mundo")) 
+
+

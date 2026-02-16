@@ -10,25 +10,69 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    font-family: italic;
+}
+
+h3 {
+    font-size: 25px;
+    font-family: arial;
+}
+
+nav {
+    gap: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
 body {
     background-image: url(../imgs/fondo.jpg);
     margin: auto;
     text-align: center;
-
 }
+
 
 div {
-    font-family: arial;
-    font-size: 12;
     color: white;
-    text-align: center;
+    font-family: arial;
+    margin: auto;
+    width: 300px;
 }
 
-img {
-    width: 500px;
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px rgb(0, 0, 0);                                                            
+.definition {
+    width: 300px;
+    padding: 20px;
+    background: linear-gradient(135deg, #000000, #1f1f1f);
+    color: white;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
+.definition:hover{
+    transform: translate(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.8);
+}
+
+
+img {
+    text-align: center;
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(98, 12, 12);                                                            
+}
+
+p {
+    font-family: georgia;
+    color: white;
+    margin: 10px
+}
+
+.description {
+    font-size: 15px;
+    font-family: arial;
 }
 
 
