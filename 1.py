@@ -388,3 +388,7 @@
 # print(contar_vocales("Hola Mundo")) 
 
 
+cadena = 1
+cadena = str("hola")
+print(type(cadena))
+
